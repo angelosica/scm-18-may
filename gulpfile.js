@@ -7,6 +7,7 @@ var rename  = require('gulp-rename');
 gulp.task('minify', function() {
   return gulp.src('src/index.html')
     .pipe(htmlmin({collapseWhitespace: true, minifyCSS: true, minifyJS: true, removeComments: true, removeCommentsFromCDATA: true, removeEmptyAttributes: true}))
+    .pipe(gulp.dest('./'))
     .pipe(rename({
             suffix: '.min'
         }))
