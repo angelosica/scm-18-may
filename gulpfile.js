@@ -1,7 +1,8 @@
-var gulp    = require('gulp');
-var htmlmin = require('gulp-htmlmin');
-var bs      = require('browser-sync').create();
-var rename  = require('gulp-rename');
+var gulp       = require('gulp');
+var htmlmin    = require('gulp-htmlmin');
+var bs         = require('browser-sync').create();
+var rename     = require('gulp-rename');
+var minifyHTML = require('gulp-minify-html');
 
 // styles
 gulp.task('minify', function() {
