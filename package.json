@@ -1,0 +1,29 @@
+{
+  "name": "may",
+  "version": "1.0.0",
+  "description": "SCM May Email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Blackbear Media",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelosica/scm-18-may.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angelosica/scm-18-may/issues"
+  },
+  "homepage": "https://github.com/angelosica/scm-18-may#readme",
+  "dependencies": {
+    "static-server": "^2.0.0"
+  }
+}
